@@ -1,0 +1,9 @@
+v: 0
+micros:
+  - name: node-rest-api
+    src: ./
+    engine: nodejs16
+    primary: true
+    run: node app.js
+    dev: npm start
+    public: true
